@@ -1,4 +1,16 @@
 body {
     background-color: lightgrey;
+
+}
+#Header {
+    background-color:lightblue;
+    color:black;
+    padding:5px; 
+	height:auto;
+	
+
+} 
+#Header img{
+	width: 15%;
 	
 }
