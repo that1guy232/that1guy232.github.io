@@ -1,5 +1,7 @@
 body {
     background-color: lightgrey;
+     display: table-cell;
+    vertical-align: middle;
 
 }
 #Header {
