@@ -4,10 +4,6 @@ body {
     background-size: cover;
 }
 #Header {
-	/*
-	background-image: url("imgs/treeBanner.jpg");
-	*/
-	background-size: cover;
     color:black;
     padding:5px;
 
