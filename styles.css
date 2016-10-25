@@ -4,12 +4,13 @@ body {
     background-size: cover;
 }
 #Header {
+	/*
 	background-image: url("imgs/treeBanner.jpg");
+	*/
 	background-size: cover;
-    color:Limegreen;
-    padding:5px; 
-	height:auto;
-	
+    color:black;
+    padding:5px;
+
 
 } 
 #Header img{
@@ -25,11 +26,4 @@ body {
     justify-content: center;
     align-items: center;
 }
-#Ads{
-	background-color: "Limegreen";
-	padding:5px;
-	height:auto;
-}
-#Ads img{
-	width: 15%;
-}
+
