@@ -11,7 +11,7 @@ function getVids() {
            ifrm.setAttribute("src", id);
            ifrm.style.width = "400px";
            ifrm.style.height = "200px";
-           ifrm.style.frameborder="1"
+           ifrm.style.border = "0";
            ifrm.style.alignItems = "center";
            document.getElementById("vids").appendChild(ifrm);
 
