@@ -5,6 +5,8 @@ body {
 }
 #Header {
 	background-image: url("imgs/tree_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     	color:Limegreen;
     	padding:5px; 
 	height:auto;
