@@ -15,13 +15,9 @@ body {
 }
 
 #Twitch{
-    align-items: inherit;
-    margin: auto;
+    display: inline-block;
+    float: inherit;
 
 
 
-}
-iframe {
-    display: block;
-    margin: auto;
 }
