@@ -1,7 +1,5 @@
 body {
-    background-image: url("imgs/bear.jpg");
-    background-repeat: no-repeat;
-    background-size: stretch;
+    background-image: url("imgs/poke.gif");
 }
 #Header {
     background-color:lightblue;
