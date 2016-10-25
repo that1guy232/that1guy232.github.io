@@ -4,7 +4,9 @@ body {
     background-size: cover;
 }
 #Header {
-    color:Black;
+	background-image: url("imgs/laser.gif");
+	background-size: cover;
+    color:Limegreen;
     padding:5px; 
 	height:auto;
 	
@@ -22,4 +24,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+#Ads{
+	background-color: "Limegreen";
+	padding:5px;
+	height:auto;
+}
+#Ads img{
+	width: 15%;
 }
