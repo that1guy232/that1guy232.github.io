@@ -1,6 +1,7 @@
 body {
     background-image: url("imgs/bear.jpg");
     background-repeat: no-repeat;
+    background-size: stretch;
 }
 #Header {
     background-color:lightblue;
