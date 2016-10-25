@@ -1,9 +1,10 @@
 body {
-    background-image: url("imgs/bear.jpg");
+    background-image: url("imgs/VuwRk0q.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #Header {
-    background-color:lightblue;
+
     color:Black;
     padding:5px; 
 	height:auto;
