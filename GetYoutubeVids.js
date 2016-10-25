@@ -9,9 +9,9 @@ function getVids() {
            var id = "http://www.youtube.com/embed/"+(v.id.videoId);
            var ifrm = document.createElement("iframe");
            ifrm.setAttribute("src", id);
-           ifrm.style.width = "640px";
-           ifrm.style.height = "480px";
-           ifrm.style.frameborder="0"
+           ifrm.style.width = "400px";
+           ifrm.style.height = "200px";
+           ifrm.style.frameborder="1"
            ifrm.style.alignItems = "center";
            document.getElementById("vids").appendChild(ifrm);
 
