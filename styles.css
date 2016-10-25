@@ -2,9 +2,11 @@ body {
     background-image: url("imgs/bg.png");
     background-repeat: repeat;
     background-size: contain;
+
 }
 #Header {
-    color:black;
+    font-family: DirtyD;
+    color:gold;
     padding:5px;
 
 
@@ -27,6 +29,14 @@ body {
     align-items: center;
 }
 #coyv{
+    padding: 1em;
+    color: gold;
+    font-family: DirtyD;
     font-size: 5em;
     text-align: center;
+}
+
+@font-face {
+    font-family: DirtyD;
+    src: url('dirtyduo.ttf') format('truetype')
 }
