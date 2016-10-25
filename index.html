@@ -16,6 +16,20 @@
 <iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=1&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" scrolling="yes" allowfullscreen></iframe>
 <iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=2&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" allowfullscreen></iframe>
 <iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=1&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" allowfullscreen></iframe>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+</script>
 </body>
 </html>
 
