@@ -4,10 +4,10 @@ body {
     background-size: cover;
 }
 #Header {
-	background-image: url("imgs/tree_banner.jpg");
+	background-image: url("imgs/laser.gif");
 	background-size: cover;
-    	color:Limegreen;
-    	padding:5px; 
+    color:Limegreen;
+    padding:5px; 
 	height:auto;
 	
 
@@ -26,7 +26,7 @@ body {
     align-items: center;
 }
 #Ads{
-	background-color: "green";
+	background-color: "Limegreen";
 	padding:5px;
 	height:auto;
 }
