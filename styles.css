@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: lightblue;
 
 }
 #Header {
@@ -15,8 +15,10 @@ body {
 }
 
 #Twitch{
+    align-items: inherit;
+    margin: auto;
 
-    margin: 0 auto;
+
 
 }
 iframe {
