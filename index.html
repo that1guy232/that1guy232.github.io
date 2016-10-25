@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body> 
+
+<script id="getvid" src="GetYoutubeVids.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+<body>
 <link rel="stylesheet" href="styles.css">
+
+
 <div id = "Header">
         <h1 align="center"> <img src="imgs/avatar.png" alt="logo"align="middle">Tree's Hut</h1>
 		</div>
@@ -10,12 +15,18 @@
 				<iframe src="https://www.twitch.tv/thattreefellow/chat?popout=" frameborder="0" scrolling="no" height="400" width="250"></iframe>
 			</div>
 		<h5 align="center"> <img src="imgs/dude.gif" alt="boobs1"align="middle"></h5>
-<div id = "Ads">
-	<h2 align="center">Check out My Recent Youtube Vids</h2>
+
+<div id = vids>
+	<script>
+		window.onload = function () {
+			getVids()
+
+		}
+	</script>
 </div>
-<iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=1&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" scrolling="yes" allowfullscreen></iframe>
-<iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=2&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" allowfullscreen></iframe>
-<iframe width="400" height="200" src="http://www.youtube.com/embed?max-results=5&controls=0&showinfo=1&rel=0&listType=user_uploads&list=treeRcool" frameborder="1" allowfullscreen></iframe>
+
+
+
 
 </body>
 </html>

@@ -22,4 +22,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+#vids{
+    display: flex;
+    align-items: center;
+}
