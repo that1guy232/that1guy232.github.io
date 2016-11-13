@@ -9,7 +9,7 @@ function getVids() {
             var id = "http://www.youtube.com/embed/"+(v.id.videoId);
             var ifrm = document.createElement("iframe");
             ifrm.setAttribute("src", id);
-            ifrm.style.width = "400px";
+            ifrm.style.width = "350px";
             ifrm.style.height = "200px";
             ifrm.style.border = "0";
             ifrm.style.alignItems = "center";
