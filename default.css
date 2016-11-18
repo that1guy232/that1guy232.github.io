@@ -88,7 +88,7 @@ img.left {
 /* Header */
 
 #wrapper {
-	background: url(images/img14.jpg) no-repeat center top;
+	background: url(imgs/img14.jpg) no-repeat center top;
 }
 
 #header {
@@ -132,7 +132,7 @@ img.left {
 
 #rss a {
 	padding: 0 0 3px 24px;
-	background: url(images/img03.gif) no-repeat;
+	background: url(imgs/img03.gif) no-repeat;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -147,7 +147,7 @@ img.left {
 	float: right;
 	width: 200px;
 	height: 28px;
-	background: #FFFFFF url(images/img02.gif) no-repeat;
+	background: #FFFFFF url(imgs/img02.gif) no-repeat;
 }
 
 #search #x {
@@ -174,7 +174,7 @@ img.left {
 	width: 950px;
 	height: 60px;
 	margin: 0 auto;
-	background: #6AA2FD url(images/img04.gif);
+	background: #6AA2FD url(imgs/img04.gif);
 }
 
 #menu ul {
@@ -191,7 +191,7 @@ img.left {
 #menu a {
 	display: block;
 	float: left;
-	background: url(images/img15.gif) no-repeat right 100%;
+	background: url(imgs/img15.gif) no-repeat right 100%;
 	padding: 18px 30px 0 30px;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
@@ -202,7 +202,7 @@ img.left {
 
 #menu a:hover {
 	height: 60px;
-	background: url(images/img16.gif) repeat-x right 30%;
+	background: url(imgs/img16.gif) repeat-x right 30%;
 	color: #000000;
 }
 
@@ -266,7 +266,7 @@ img.left {
 	height: 29px;
 	margin: 0;
 	padding: 6px 0 0 20px;
-	background: #F3F3F3 url(images/img08.gif) no-repeat;
+	background: #F3F3F3 url(imgs/img08.gif) no-repeat;
 }
 
 .post .links a {
@@ -280,11 +280,11 @@ img.left {
 }
 
 .post .links .more {
-	background: url(images/img09.gif) no-repeat;
+	background: url(imgs/img09.gif) no-repeat;
 }
 
 .post .links .comments {
-	background: url(images/img10.gif) no-repeat;
+	background: url(imgs/img10.gif) no-repeat;
 }
 
 /* Sidebar */
@@ -302,7 +302,7 @@ img.left {
 
 #sidebar li {
 	margin-bottom: 20px;
-	backgrounda: #F3F3F3 url(images/img13.jg) repeat-y left top;
+	backgrounda: #F3F3F3 url(imgs/img13.jg) repeat-y left top;
 }
 
 #sidebar li ul {
@@ -313,7 +313,7 @@ img.left {
 #sidebar li li {
 	margin: 0;
 	padding-left: 15px;
-	background: url(images/img07.gif) no-repeat 0 11px;
+	background: url(imgs/img07.gif) no-repeat 0 11px;
 }
 
 #sidebar h2 {
@@ -375,7 +375,7 @@ img.left {
 	width: 950px;
 	margin: 0 auto;
 	padding: 30px 0;
-	background: url(images/img11.gif) no-repeat;
+	background: url(imgs/img11.gif) no-repeat;
 }
 
 #footer p {
