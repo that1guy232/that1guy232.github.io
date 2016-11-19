@@ -21,6 +21,20 @@ body {
 	width: 15%;
 }
 
+#Location{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Location img{
+
+
+    width: 25%;
+}
+
+
 #Twitch{
 
     margin: 0;
