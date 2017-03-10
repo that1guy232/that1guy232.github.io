@@ -20,19 +20,22 @@
     <p> This is the Secret Location of Treeshut.com Dedicated to Stoneystone662
         Check him out here.
    </p>
+    
+</div>
+
+
+<body>
     <script type="text/javascript">
-    int clicks = 0;
-    function click("https://www.youtube.com/user/stoneystone662") {
+    var clicks = 0;
+    function onClick() {
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
     };
     </script>
-    <button type="button" onClick="click()">Click Here</button>
-    Clicks: <a id="clicks">0</a>
-</div>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
 
-
-
+</body>
 
 
 
