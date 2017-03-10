@@ -24,17 +24,23 @@
 </div>
 
 
+<script>
+function clickCounter("https://www.youtube.com/user/stoneystone662") {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You Personally have visited this Page " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
 <body>
-    <script type="text/javascript">
-    var clicks = 0;
-    function onClick() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <button type="button" onClick="onClick()">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p>
-
+<p><button onclick="clickCounter(https://www.youtube.com/user/stoneystone662)" type="button">Click Here</button></p>
+<div id="result"></div>
 </body>
 
 
