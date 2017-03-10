@@ -25,7 +25,7 @@
 
 
 <script>
-function clickCounter("https://www.youtube.com/user/stoneystone662") {
+function clickCounter() {
     if(typeof(Storage) !== "undefined") {
         if (localStorage.clickcount) {
             localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -39,7 +39,7 @@ function clickCounter("https://www.youtube.com/user/stoneystone662") {
 }
 </script>
 <body>
-<p><button onclick="clickCounter(https://www.youtube.com/user/stoneystone662)" type="button">Click Here</button></p>
+<button onclick="clickCounter()" href="https://www.youtube.com/user/stoneystone662" type="button">Click Here</button>
 <div id="result"></div>
 </body>
 
