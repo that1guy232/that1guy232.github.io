@@ -18,7 +18,7 @@ window.addEventListener( 'DOMContentLoaded', function () {
         status.innerHTML = 'You rolled ' + diceTotal + '.';
 
         if ( side1 === side2 ) {
-            status.innerHTML += ' Doubles! You get a free turn!';
+            status.innerHTML += ' Doubles! You Win Double :)';
         }
     }
 
