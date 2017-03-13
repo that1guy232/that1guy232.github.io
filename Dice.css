@@ -1,15 +1,22 @@
 body {
     position: relative;
 }
+#Header {
+    font-family: DirtyD;
+    color:gold;
+    padding:5px;
+    text-shadow: 5px 5px 5px #000;
 
-.wrapper {
+
+} 
+#wrapper {
     width: 400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-.column {
+#column {
     display: flex;
     align-items: center;
 }
@@ -24,19 +31,19 @@ body {
 		text-align: center;
 }
 
-.dice {
+#dice {
     width: 32px;
     float: left;
-    background-color: lightcoral;
+    background-color: red;
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     font-size: 24px;
     text-align: center;
     margin: 5px;
     border-radius: 5px;
 }
 
-.dice-roll {
+#dice-roll {
     cursor: pointer;
     text-transform: capitalize;
 }
