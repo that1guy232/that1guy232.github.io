@@ -23,21 +23,6 @@
     
 </div>
 
-
-<script>
-function clickCounter() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount)+1;
-        } else {
-            localStorage.clickcount = 1;
-        }
-        document.getElementById("result").innerHTML = "You Personally have visited this Page " + localStorage.clickcount + " time(s).";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-}
-</script>
 <body>
 <button onclick="clickCounter()" type="button", href="https://www.youtube.com/user/stoneystone662">Click Here</button>
 <div id="result"></div>
@@ -52,10 +37,9 @@ function clickCounter() {
 				<button type="button" class="dice-roll">roll dice</button>
 				<h2 id="status"></h2>
 		</div>
-</div>
+	</div>
 
 
-
-
+	
 </body>
 </html>
