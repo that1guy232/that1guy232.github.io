@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Array</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="sidebar">
+        <h2>Stats</h2>
+        <ul>
+            <li id="mergeCountContainer">Total Merges: 0</li>
+            <li id="maxNumberContainer"></li>
+            <li id="maxStateSizeContainer"></li>
+
+        </ul>
+    </div>
+    <div id="mainContent">
+        <div id="infoContainer">
+            <div id="scoreContainer"></div>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar-label">Merge Progress</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="progressBar1"></div>
+                </div>
+                <div class="progress-bar-timer" id="mergeTimer">0s</div>
+            </div>
+            <div class="container">
+                <h2>Array</h1>
+                <div id="arrayContainer" class="grid-container"></div>
+                <button id="prestigeButton" disabled>Prestige</button>
+            </div>
+            <div class="button-container">
+                <button id="pauseButton">Pause</button>
+                <button id="saveButton">Save</button>
+                <button id="resetButton">Reset</button>
+            </div>
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar-label">Spawn Progress</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="progressBar2"></div>
+                </div>
+                <div class="progress-bar-timer" id="spawnTimer">0s</div>
+            </div>
+        </div>
+    </div>
+    <div id="wideContainer" class="wide-container"></div>
+    <script src="gameState.js"></script>
+    <script src="gameUI.js"></script>
+    <script src="gameLoop.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('saveButton').addEventListener('click', () => game.saveGameState());
+        });
+    </script>
+</body>
+
+</html>
